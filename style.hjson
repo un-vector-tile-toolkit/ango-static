@@ -6,7 +6,7 @@
     v: {
       type: vector
       tiles: [
-        http://localhost:3000/zxy/{z}/{x}/{y}.pbf
+        https://un-vector-tile-toolkit.github.io/ango-static/tiles/{z}/{x}/{y}.pbf
       ]
       attribution: Geospatial Information Authority of Japan
       minzoom: 7
@@ -23,8 +23,8 @@
       maxzoom: 18
     }
   }
-  sprite: http://localhost:3000/sprite/std
-  glyphs: http://localhost:3000/fonts/{fontstack}/{range}.pbf
+  sprite: https://un-vector-tile-toolkit.github.io/ango-static/sprite/std
+  glyphs: https://un-vector-tile-toolkit.github.io/ango-static/fonts/{fontstack}/{range}.pbf
   layers: [
     {
       id: ort

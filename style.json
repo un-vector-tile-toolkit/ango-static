@@ -3,7 +3,7 @@
     135,
     35
   ],
-  "glyphs": "http://localhost:3000/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://un-vector-tile-toolkit.github.io/ango-static/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "ort",
@@ -84,12 +84,12 @@
       "maxzoom": 10,
       "minzoom": 7,
       "tiles": [
-        "http://localhost:3000/zxy/{z}/{x}/{y}.pbf"
+        "https://un-vector-tile-toolkit.github.io/ango-static/tiles/{z}/{x}/{y}.pbf"
       ],
       "type": "vector"
     }
   },
-  "sprite": "http://localhost:3000/sprite/std",
+  "sprite": "https://un-vector-tile-toolkit.github.io/ango-static/sprite/std",
   "version": 8,
   "zoom": 7
 }

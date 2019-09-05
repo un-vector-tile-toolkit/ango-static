@@ -1,2 +1,2 @@
 # ango-static
-static site files for tango
+static site files for ango
